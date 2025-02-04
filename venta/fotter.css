@@ -1,0 +1,55 @@
+.Camil{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: goldenrod; 
+}
+
+.Camil:hover {
+    transition: 0.s;
+    text-align: center;
+    text-decoration: none;
+   
+}
+
+.Am{
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+.Cam{
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+      padding: 250px;
+      background-image: url(rosas.gif);
+    }
+    
+    .social-icon a {
+      display: inline-block;
+      width: 200px;
+      background: #000000;
+      text-align: center;
+      text-decoration: none;
+      color: whitesmoke;
+      transition: 0.5s;
+    }
+    
+    .social-icon a .fab {
+      line-height: 36px;
+    }
+    
+    .social-icon a:hover {
+      background: goldenrod;
+    }
+    
+    .social-icon a:hover li {
+      transition: 0.5s;
+      color: #333;
+    }
+    
